@@ -1,0 +1,72 @@
+Prompt Generation Tool
+
+The Prompt Page is a powerful tool designed to help users create structured and context-rich prompts that enable language models (LLMs) to generate precise, maintainable, and scalable code. By combining automation with customization, the Prompt Page ensures users can effectively guide the LLM to produce high-quality outputs tailored to their needs.
+
+---
+
+ Purpose of the Prompt Page
+The Prompt Page allows users to:
+1. Select the application they are analyzing within a monorepo.
+2. Define and refine objectives for coding tasks.
+3. Automatically identify and select relevant files for the task based on the objective.
+4. Customize and update key elements such as roles, technical context, and an analysis framework, while providing defaults for ease of use.
+5. Generate and preview a complete prompt that establishes the correct coding context for the LLM.
+
+---
+
+ Key Features and User Workflow
+
+1. Application Selection
+Users begin by selecting the specific application of interest from the available options in the monorepo. This selection determines the scope of the analysis, ensuring the tool focuses on the relevant files and context for the chosen application.
+
+---
+
+2. Role Selection and Description
+Users then select the role they want to ascribe in the prompt, such as "Expert Backend Developer" or "Frontend Engineer." The role description automatically updates to align with the selected role, providing a detailed explanation of expectations. While a default description is provided, users can edit it to better fit their specific needs.
+
+---
+
+3. Technical Context
+The technical context is generated automatically, reflecting the frameworks, libraries, and tools used in the application. This ensures the LLM has a clear understanding of the environment. Users have the flexibility to update or refine this context if needed, but the default values are designed to be comprehensive and accurate.
+
+---
+
+4. Define and Refine Objectives
+Users input an initial objective for the coding task, such as "Add a login feature." The tool refines this objective through an automated process, improving its clarity and precision. The refined objective is presented for review, and users can choose to accept or modify it before proceeding.
+
+---
+
+5. Automatic File Selection
+Once the objective is finalized, the tool uses an LLM to analyze the objective, application context, and directory structure. The LLM identifies:
+- A central seed file that is most relevant to the objective.
+- Additional files with immediate and near relationships, such as dependencies or closely related components.
+
+These files are automatically selected and presented to the user, ensuring that the prompt includes all necessary elements for accurate and high-quality code generation.
+
+---
+
+6. Analysis Framework
+The tool includes a structured analysis framework that guides the LLM to produce logical and systematic outputs. This framework outlines:
+- Problem understanding
+- Solution design
+- Implementation planning
+- Review and validation processes
+
+The framework can be customized by the user but is pre-filled with a default structure tailored to coding tasks.
+
+---
+
+7. Prompt Generation and Preview
+The tool combines the refined objective, selected files, app context, role description, technical context, and analysis framework into a comprehensive and structured prompt. Users can preview the prompt to ensure it aligns with their needs and copy it for immediate use.
+
+---
+
+ User Benefits
+- Efficiency: Automates key tasks such as file selection, context generation, and objective refinement, saving users time and effort.
+- Customization: Allows users to tailor the role, technical context, and analysis framework to their specific requirements.
+- Accuracy: Ensures the LLM operates with a clear understanding of the task and environment, resulting in high-quality code outputs.
+- Scalability: Supports multiple applications within a monorepo, adapting seamlessly to different projects and objectives.
+
+---
+
+The Prompt Page provides users with a streamlined, interactive experience for creating effective prompts, enabling them to maximize the capabilities of language models for their coding needs.

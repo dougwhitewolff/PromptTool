@@ -1,0 +1,105 @@
+{
+  // Format on save
+  "editor.formatOnSave": true,
+
+  // Set Prettier as the default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Prettier-specific formatting for JSON
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  // Enable IntelliSense for Tailwind CSS
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "'([^']*)'"], // Tailwind support for clsx
+    ["classnames\\(([^)]*)\\)", "'([^']*)'"], // Tailwind support for classnames
+    ["cn\\(([^)]*)\\)", "'([^']*)'"] // Tailwind support for cn
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript",
+    "html": "html"
+  },
+
+  // Exclude unnecessary files and directories
+  "files.exclude": {
+    "**/.next": true,
+    "**/node_modules": true,
+    "**/.vercel": true
+  },
+
+  // ESLint integration
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "yaml",
+    "markdown"
+  ],
+
+  // Code lens (useful for TypeScript references)
+  "typescript.referencesCodeLens.enabled": true,
+
+  // Disable TSLint if using ESLint
+  "tslint.enable": false,
+
+  // Auto-imports for TypeScript/JavaScript
+  "typescript.autoImportSuggestions.enabled": true,
+
+  // Show whitespace (helpful for debugging spacing issues)
+  "editor.renderWhitespace": "all",
+
+  // Highlight matching brackets
+  "editor.matchBrackets": "always",
+
+  // Git decorations
+  "git.decorations.enabled": true,
+  "git.autofetch": true,
+
+  // Enable inline error messages and auto-fix ESLint errors on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
+  // Enable JSON schemas for better IntelliSense in JSON files
+  "json.schemas": [
+    {
+      "fileMatch": ["/tsconfig.json"],
+      "url": "https://json.schemastore.org/tsconfig"
+    },
+    {
+      "fileMatch": ["/package.json"],
+      "url": "https://json.schemastore.org/package"
+    },
+    {
+      "fileMatch": ["/.eslintrc.json"],
+      "url": "https://json.schemastore.org/eslintrc"
+    },
+    {
+      "fileMatch": ["/.prettierrc"],
+      "url": "https://json.schemastore.org/prettierrc"
+    },
+    {
+      "fileMatch": ["/.babelrc"],
+      "url": "https://json.schemastore.org/babelrc"
+    },
+    {
+      "fileMatch": ["/.stylelintrc"],
+      "url": "https://json.schemastore.org/stylelintrc"
+    }
+  ],
+
+  // Enable auto-save for seamless linting and formatting
+  "files.autoSave": "onFocusChange"
+}

@@ -1,0 +1,771 @@
+[
+  {
+    "name": "apps",
+    "type": "directory",
+    "children": [
+      {
+        "name": "web",
+        "type": "directory",
+        "children": [
+          {
+            "name": "app",
+            "type": "directory",
+            "children": [
+              {
+                "name": "activities",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "coded-messages",
+                    "type": "directory",
+                    "children": []
+                  },
+                  {
+                    "name": "layout.tsx",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "api",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "embeddings",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "route.ts",
+                        "type": "file"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "file",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "route.ts",
+                        "type": "file"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "prompt-tool",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "directory",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "name": "defaults",
+                            "type": "directory",
+                            "children": [
+                              {
+                                "name": "route.ts",
+                                "type": "file"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "route.ts",
+                            "type": "file"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "refine-file-selection",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "name": "route.ts",
+                            "type": "file"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "refine-objective",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "name": "route.ts",
+                            "type": "file"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "rescan",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "name": "route.ts",
+                            "type": "file"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "realtime",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "token",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "name": "refresh",
+                            "type": "directory",
+                            "children": [
+                              {
+                                "name": "route.ts",
+                                "type": "file"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "route.ts",
+                            "type": "file"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "single-source-of-truth",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "route.ts",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "favicon.ico",
+                "type": "file"
+              },
+              {
+                "name": "globals.css",
+                "type": "file"
+              },
+              {
+                "name": "layout.tsx",
+                "type": "file"
+              },
+              {
+                "name": "page.tsx",
+                "type": "file"
+              },
+              {
+                "name": "prompt-tool",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "api",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "prompt-tool",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "name": "directory",
+                            "type": "directory",
+                            "children": [
+                              {
+                                "name": "route.ts",
+                                "type": "file"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "assets",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "defaultAnalysisFramework.ts",
+                        "type": "file"
+                      },
+                      {
+                        "name": "defaultContext.ts",
+                        "type": "file"
+                      },
+                      {
+                        "name": "defaultDescriptions.ts",
+                        "type": "file"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "components",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "AnalysisFrameworkForm.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "CopyPromptButton.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "DirectorySearch.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "DirectorySelector.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "DirectoryTree.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ErrorBoundary.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ErrorBoundaryWrapper.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "FileSelectionContainer.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "LivePreviewContainer.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ObjectiveContainer.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ObjectiveForm.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "ProjectDirectoryContainer.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "PromptPreview.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "RefineObjective.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "RoleContextForm.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "RoleDescriptionContainer.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "RoleSelectorContainer.tsx",
+                        "type": "file"
+                      },
+                      {
+                        "name": "TechnicalContextContainer.tsx",
+                        "type": "file"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lib",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "prompt-tool",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "name": "types.ts",
+                            "type": "file"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "prompt.ts",
+                        "type": "file"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "page.tsx",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "components",
+            "type": "directory",
+            "children": [
+              {
+                "name": "AITutorInterface.tsx",
+                "type": "file"
+              },
+              {
+                "name": "ErrorBoundary.tsx",
+                "type": "file"
+              },
+              {
+                "name": "layout",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "Footer.tsx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "Header.tsx",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "PageOverlay.tsx",
+                "type": "file"
+              },
+              {
+                "name": "ui",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "card.tsx",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "docs",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Inversity Pages & Activities.txt",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "eslint.config.mjs",
+            "type": "file"
+          },
+          {
+            "name": "jest.config.js",
+            "type": "file"
+          },
+          {
+            "name": "lib",
+            "type": "directory",
+            "children": [
+              {
+                "name": "dependency-tracker",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "singleSourceOfTruth.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "types.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "utils.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "encoding",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "utils.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "error-handling",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "types.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "prompt-tool",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "assets",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "defaultContext.ts",
+                        "type": "file"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "defaultAnalysisFramework.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "layout.tsx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "types.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "utils.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "retry",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "index.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "semantic-search",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "embeddings.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "index.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "types.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "telemetry",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "index.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "token",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "types.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "utils",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "environment.ts",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "webrtc",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "types.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "WebRTCContext.tsx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "WebRTCService.ts",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "next-env.d.ts",
+            "type": "file"
+          },
+          {
+            "name": "next.config.ts",
+            "type": "file"
+          },
+          {
+            "name": "package.json",
+            "type": "file"
+          },
+          {
+            "name": "package.json.backup",
+            "type": "file"
+          },
+          {
+            "name": "postcss.config.mjs",
+            "type": "file"
+          },
+          {
+            "name": "README.md",
+            "type": "file"
+          },
+          {
+            "name": "services",
+            "type": "directory",
+            "children": [
+              {
+                "name": "refineObjectiveService.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "tailwind.config.ts",
+            "type": "file"
+          },
+          {
+            "name": "tsconfig.jest.json",
+            "type": "file"
+          },
+          {
+            "name": "tsconfig.json",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "docs",
+    "type": "directory",
+    "children": [
+      {
+        "name": "Prompt-Tool-Description.txt",
+        "type": "file"
+      },
+      {
+        "name": "session_docs",
+        "type": "directory",
+        "children": [
+          {
+            "name": "check-versions.ps1",
+            "type": "file"
+          },
+          {
+            "name": "concat.js",
+            "type": "file"
+          },
+          {
+            "name": "concat_prompt.js",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "docs - Shortcut.lnk",
+    "type": "file"
+  },
+  {
+    "name": "error-log.txt",
+    "type": "file"
+  },
+  {
+    "name": "lib",
+    "type": "directory",
+    "children": [
+      {
+        "name": "semantic-search",
+        "type": "directory",
+        "children": [
+          {
+            "name": "embeddingRateLimiter.ts",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "package-lock.json",
+    "type": "file"
+  },
+  {
+    "name": "package-lock.json.bak",
+    "type": "file"
+  },
+  {
+    "name": "package.json",
+    "type": "file"
+  },
+  {
+    "name": "packages",
+    "type": "directory",
+    "children": [
+      {
+        "name": "eslint-config",
+        "type": "directory",
+        "children": [
+          {
+            "name": "base.js",
+            "type": "file"
+          },
+          {
+            "name": "next.js",
+            "type": "file"
+          },
+          {
+            "name": "package.json",
+            "type": "file"
+          },
+          {
+            "name": "react-internal.js",
+            "type": "file"
+          },
+          {
+            "name": "README.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "typescript-config",
+        "type": "directory",
+        "children": [
+          {
+            "name": "base.json",
+            "type": "file"
+          },
+          {
+            "name": "nextjs.json",
+            "type": "file"
+          },
+          {
+            "name": "package.json",
+            "type": "file"
+          },
+          {
+            "name": "react-library.json",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "ui",
+        "type": "directory",
+        "children": [
+          {
+            "name": "eslint.config.js",
+            "type": "file"
+          },
+          {
+            "name": "package.json",
+            "type": "file"
+          },
+          {
+            "name": "src",
+            "type": "directory",
+            "children": [
+              {
+                "name": "button.tsx",
+                "type": "file"
+              },
+              {
+                "name": "card.tsx",
+                "type": "file"
+              },
+              {
+                "name": "code.tsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "tsconfig.json",
+            "type": "file"
+          },
+          {
+            "name": "turbo",
+            "type": "directory",
+            "children": [
+              {
+                "name": "generators",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "config.ts",
+                    "type": "file"
+                  },
+                  {
+                    "name": "templates",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "component.hbs",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "README.md",
+    "type": "file"
+  },
+  {
+    "name": "temp-structure-script.js",
+    "type": "file"
+  },
+  {
+    "name": "tsconfig.json",
+    "type": "file"
+  },
+  {
+    "name": "turbo.json",
+    "type": "file"
+  }
+]
